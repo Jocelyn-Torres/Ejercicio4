@@ -36,4 +36,5 @@ public abstract class CuentaUsuario {
     public double obtenerTotalAPagar() {
         return plan.calcularCosto(mesesActivo);
     }
+
 }
